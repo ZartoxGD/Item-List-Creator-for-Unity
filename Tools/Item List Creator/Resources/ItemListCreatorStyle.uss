@@ -1,0 +1,39 @@
+#json-load-field > Label {
+    min-width: 0;
+    padding-right: 30px;
+}
+
+#id-field > Label {
+    min-width: auto;
+}
+
+#name-field > Label {
+    min-width: auto;
+}
+
+#max-stackable-field > Label {
+    min-width: auto;
+}
+
+#category-field > Label {
+    min-width: auto;
+    padding-left: 0;
+}
+
+#can-craft-field > Label {
+    min-width: auto;
+    margin-right: 10px;
+}
+
+#description-field > #unity-text-input {
+    width: auto;
+    height: 80px;
+}
+
+#show-only-dropdown > Label {
+    min-width: 0;
+}
+
+#icon-file-selector > Label {
+    min-width: 100px;
+}

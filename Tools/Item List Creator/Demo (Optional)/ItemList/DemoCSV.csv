@@ -1,0 +1,51 @@
+Id;Name;Description;Craft;Category;MaxStackable
+1;Copper Pickaxe;A basic pickaxe made of copper.;True;Ressource;1
+2;Iron Sword;A sharp sword made of iron.;True;Arme;1
+3;Leather Boots;Lightweight boots made of leather.;True;Equipement;1
+4;Gold Ring;A shiny gold ring.;False;Vehicule;1
+5;Red Mushroom;A red mushroom with healing properties.;False;Support;64
+6;Enchanted Bow;A bow imbued with magical properties.;False;Ressource;1
+7;Obsidian Shovel;A shovel made of obsidian, capable of digging through most materials.;True;Arme;1
+8;Chainmail Chestplate;A chestplate made of interlocking metal rings.;True;Equipement;1
+9;Diamond Axe;A powerful axe made of diamond.;True;Vehicule;1
+10;Emerald;A bright green gemstone.;False;Support;64
+11;Flint and Steel;A tool used to create fire.;True;Ressource;1
+12;Ghast Tear;A rare drop from ghasts, used in brewing and crafting.;False;Arme;64
+13;Wooden Sword;A basic sword made of wood.;True;Ressource;1
+14;Stone Pickaxe;A sturdy pickaxe made of stone.;True;Arme;1
+15;Chainmail Leggings;Leggings made of interlocking metal rings.;True;Equipement;1
+16;Diamond Helmet;A protective helmet made of diamond.;True;Vehicule;1
+17;Apple;A juicy, red apple.;False;Support;64
+18;Enchanted Sword;A sword imbued with magical properties.;False;Ressource;1
+19;Iron Shovel;A sturdy shovel made of iron.;True;Arme;1
+20;Leather Chestplate;A lightweight chestplate made of leather.;True;Equipement;1
+21;Gold Axe;A well-balanced axe made of gold.;True;Vehicule;1
+22;Blaze Rod;A rod dropped by blazes, used in brewing and crafting.;False;Support;64
+23;Elytra;Wings that allow the player to glide through the air.;False;Ressource;1
+24;Enchanted Pickaxe;A pickaxe imbued with magical properties.;False;Arme;1
+25;Steel Pickaxe;A sturdy pickaxe made of steel.;True;Ressource;1
+26;Gold Sword;A well-balanced sword made of gold.;True;Arme;1
+27;Chainmail Chestplate;A chestplate made of interlocking metal rings.;True;Equipement;1
+28;Iron Leggings;Sturdy leggings made of iron.;True;Vehicule;1
+29;Bread;A loaf of freshly baked bread.;True;Support;64
+30;Enchanted Pickaxe;A pickaxe imbued with magical properties.;False;Ressource;1
+31;Iron Shovel;A sturdy shovel made of iron.;True;Arme;1
+32;Leather Chestplate;A lightweight chestplate made of leather.;True;Equipement;1
+33;Gold Axe;A well-balanced axe made of gold.;True;Vehicule;1
+34;Blaze Powder;A powder made from blaze rods, used in brewing and crafting.;False;Support;64
+35;Elytra;Wings that allow the player to glide through the air.;False;Ressource;1
+36;Enchanted Sword;A sword imbued with magical properties.;False;Arme;1
+37;Bookshelf;A wooden bookshelf for storing and organizing books.;True;Ressource;1
+38;Laptop;A portable computer with a screen and keyboard.;False;Arme;1
+39;Television;An electronic device for displaying video and audio content.;False;Equipement;1
+40;Sofa;A long, upholstered seat for multiple people.;True;Vehicule;1
+41;Coffee Table;A low table used in living rooms for holding drinks and snacks.;True;Support;1
+42;Blender;An electric appliance used for blending and pureeing food.;False;Ressource;1
+43;Toaster;An appliance for toasting bread.;False;Arme;1
+44;Microwave;An electronic appliance for heating and cooking food.;False;Equipement;1
+45;Dishwasher;An appliance for washing dishes automatically.;False;Vehicule;1
+46;Oven;An appliance for baking or roasting food.;False;Support;1
+47;Vacuum Cleaner;An appliance for removing dirt and debris from floors and carpets.;False;Ressource;1
+48;Lamp;A device for illuminating a room.;True;Arme;1
+49;Laser Sword;A futuristic sword with a blade made of pure energy.;False;Arme;1
+50;Plasma Cannon;A powerful handheld cannon that fires plasma bolts.;False;Arme;1

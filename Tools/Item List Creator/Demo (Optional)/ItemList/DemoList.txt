@@ -1,0 +1,554 @@
+{
+    "Items": [
+        {
+            "id": 1,
+            "name": "Copper Pickaxe",
+            "description": "A basic pickaxe made of copper.",
+            "craft": true,
+            "category": 1,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 2,
+            "name": "Iron Sword",
+            "description": "A sharp sword made of iron.",
+            "craft": true,
+            "category": 1,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 3,
+            "name": "Leather Boots",
+            "description": "Lightweight boots made of leather.",
+            "craft": true,
+            "category": 2,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 4,
+            "name": "Gold Ring",
+            "description": "A shiny gold ring.",
+            "craft": false,
+            "category": 2,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 5,
+            "name": "Red Mushroom",
+            "description": "A red mushroom with healing properties.",
+            "craft": false,
+            "category": 4,
+            "maxStackable": 64,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 6,
+            "name": "Enchanted Bow",
+            "description": "A bow imbued with magical properties.",
+            "craft": false,
+            "category": 0,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 7,
+            "name": "Obsidian Shovel",
+            "description": "A shovel made of obsidian, capable of digging through most materials.",
+            "craft": true,
+            "category": 1,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 8,
+            "name": "Chainmail Chestplate",
+            "description": "A chestplate made of interlocking metal rings.",
+            "craft": true,
+            "category": 2,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 9,
+            "name": "Diamond Axe",
+            "description": "A powerful axe made of diamond.",
+            "craft": true,
+            "category": 3,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 10,
+            "name": "Emerald",
+            "description": "A bright green gemstone.",
+            "craft": false,
+            "category": 4,
+            "maxStackable": 64,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 11,
+            "name": "Flint and Steel",
+            "description": "A tool used to create fire.",
+            "craft": true,
+            "category": 0,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 12,
+            "name": "Ghast Tear",
+            "description": "A rare drop from ghasts, used in brewing and crafting.",
+            "craft": false,
+            "category": 1,
+            "maxStackable": 64,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 13,
+            "name": "Wooden Sword",
+            "description": "A basic sword made of wood.",
+            "craft": true,
+            "category": 0,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 14,
+            "name": "Stone Pickaxe",
+            "description": "A sturdy pickaxe made of stone.",
+            "craft": true,
+            "category": 1,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 15,
+            "name": "Chainmail Leggings",
+            "description": "Leggings made of interlocking metal rings.",
+            "craft": true,
+            "category": 2,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 16,
+            "name": "Diamond Helmet",
+            "description": "A protective helmet made of diamond.",
+            "craft": true,
+            "category": 3,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 17,
+            "name": "Apple",
+            "description": "A juicy, red apple.",
+            "craft": false,
+            "category": 4,
+            "maxStackable": 64,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 18,
+            "name": "Enchanted Sword",
+            "description": "A sword imbued with magical properties.",
+            "craft": false,
+            "category": 0,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 19,
+            "name": "Iron Shovel",
+            "description": "A sturdy shovel made of iron.",
+            "craft": true,
+            "category": 1,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 20,
+            "name": "Leather Chestplate",
+            "description": "A lightweight chestplate made of leather.",
+            "craft": true,
+            "category": 2,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 21,
+            "name": "Gold Axe",
+            "description": "A well-balanced axe made of gold.",
+            "craft": true,
+            "category": 3,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 22,
+            "name": "Blaze Rod",
+            "description": "A rod dropped by blazes, used in brewing and crafting.",
+            "craft": false,
+            "category": 4,
+            "maxStackable": 64,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 23,
+            "name": "Elytra",
+            "description": "Wings that allow the player to glide through the air.",
+            "craft": false,
+            "category": 0,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 24,
+            "name": "Enchanted Pickaxe",
+            "description": "A pickaxe imbued with magical properties.",
+            "craft": false,
+            "category": 1,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 25,
+            "name": "Steel Pickaxe",
+            "description": "A sturdy pickaxe made of steel.",
+            "craft": true,
+            "category": 0,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 26,
+            "name": "Gold Sword",
+            "description": "A well-balanced sword made of gold.",
+            "craft": true,
+            "category": 1,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 27,
+            "name": "Chainmail Chestplate",
+            "description": "A chestplate made of interlocking metal rings.",
+            "craft": true,
+            "category": 2,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 28,
+            "name": "Iron Leggings",
+            "description": "Sturdy leggings made of iron.",
+            "craft": true,
+            "category": 3,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 29,
+            "name": "Bread",
+            "description": "A loaf of freshly baked bread.",
+            "craft": true,
+            "category": 4,
+            "maxStackable": 64,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 30,
+            "name": "Enchanted Pickaxe",
+            "description": "A pickaxe imbued with magical properties.",
+            "craft": false,
+            "category": 0,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 31,
+            "name": "Iron Shovel",
+            "description": "A sturdy shovel made of iron.",
+            "craft": true,
+            "category": 1,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 32,
+            "name": "Leather Chestplate",
+            "description": "A lightweight chestplate made of leather.",
+            "craft": true,
+            "category": 2,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 33,
+            "name": "Gold Axe",
+            "description": "A well-balanced axe made of gold.",
+            "craft": true,
+            "category": 3,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 34,
+            "name": "Blaze Powder",
+            "description": "A powder made from blaze rods, used in brewing and crafting.",
+            "craft": false,
+            "category": 4,
+            "maxStackable": 64,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 35,
+            "name": "Elytra",
+            "description": "Wings that allow the player to glide through the air.",
+            "craft": false,
+            "category": 0,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 36,
+            "name": "Enchanted Sword",
+            "description": "A sword imbued with magical properties.",
+            "craft": false,
+            "category": 1,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 37,
+            "name": "Bookshelf",
+            "description": "A wooden bookshelf for storing and organizing books.",
+            "craft": true,
+            "category": 0,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 38,
+            "name": "Laptop",
+            "description": "A portable computer with a screen and keyboard.",
+            "craft": false,
+            "category": 1,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 39,
+            "name": "Television",
+            "description": "An electronic device for displaying video and audio content.",
+            "craft": false,
+            "category": 2,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 40,
+            "name": "Sofa",
+            "description": "A long, upholstered seat for multiple people.",
+            "craft": true,
+            "category": 3,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 41,
+            "name": "Coffee Table",
+            "description": "A low table used in living rooms for holding drinks and snacks.",
+            "craft": true,
+            "category": 4,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 42,
+            "name": "Blender",
+            "description": "An electric appliance used for blending and pureeing food.",
+            "craft": false,
+            "category": 0,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 43,
+            "name": "Toaster",
+            "description": "An appliance for toasting bread.",
+            "craft": false,
+            "category": 1,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 44,
+            "name": "Microwave",
+            "description": "An electronic appliance for heating and cooking food.",
+            "craft": false,
+            "category": 2,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 45,
+            "name": "Dishwasher",
+            "description": "An appliance for washing dishes automatically.",
+            "craft": false,
+            "category": 3,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 46,
+            "name": "Oven",
+            "description": "An appliance for baking or roasting food.",
+            "craft": false,
+            "category": 4,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 47,
+            "name": "Vacuum Cleaner",
+            "description": "An appliance for removing dirt and debris from floors and carpets.",
+            "craft": false,
+            "category": 0,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 48,
+            "name": "Lamp",
+            "description": "A device for illuminating a room.",
+            "craft": true,
+            "category": 1,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 49,
+            "name": "Laser Sword",
+            "description": "A futuristic sword with a blade made of pure energy.",
+            "craft": false,
+            "category": 1,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        },
+        {
+            "id": 50,
+            "name": "Plasma Cannon",
+            "description": "A powerful handheld cannon that fires plasma bolts.",
+            "craft": false,
+            "category": 1,
+            "maxStackable": 1,
+            "icon": {
+                "instanceID": 0
+            }
+        }
+    ]
+}

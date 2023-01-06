@@ -1,0 +1,62 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Tools/Item%20List%20Creator/Resources/ItemListCreatorStyle.uss?fileID=7433441132597879392&amp;guid=35046adf00fc3e34b8a36dd25f7e9283&amp;type=3#ItemListCreatorStyle" />
+    <ui:Label text="Item List Creator" display-tooltip-when-elided="true" name="title" focusable="false" style="justify-content: center; align-items: center; width: 1000px; height: 50px; position: relative; top: auto; -unity-text-align: middle-center; font-size: 30px; -unity-font-style: bold; background-color: rgb(36, 36, 36); -unity-background-image-tint-color: rgb(255, 255, 255);" />
+    <ui:VisualElement focusable="false" style="flex-wrap: nowrap; flex-direction: row;">
+        <ui:VisualElement>
+            <ui:VisualElement name="file-select-zone" style="width: 300px; height: 125px; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; margin-top: 15px; padding-top: 15px; margin-left: 20px; background-color: rgb(36, 36, 36); padding-left: 15px; padding-right: 15px; padding-bottom: 15px; margin-right: 20px; margin-bottom: 10px; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px;">
+                <ui:Label text="File Selection" display-tooltip-when-elided="true" style="justify-content: center; align-items: center; -unity-font-style: bold; font-size: 17px; -unity-text-align: upper-center;" />
+                <ui:VisualElement style="flex-direction: row; flex-shrink: 0; align-items: center; justify-content: center; padding-top: 10px;">
+                    <ui:Button text="Create New Item List" display-tooltip-when-elided="true" focusable="true" tooltip="Create a new item list in a text file." name="create-new-item-list-button" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-direction: row; flex-shrink: 0; padding-top: 10px; overflow: visible; flex-wrap: nowrap; justify-content: flex-start; align-items: stretch; -unity-text-align: middle-center; white-space: normal; margin-right: 0; padding-right: 0;">
+                    <uie:ObjectField label="Load Item List" name="json-load-field" type="UnityEngine.TextAsset, UnityEngine.CoreModule" tooltip="Load an existing Item List" style="flex-grow: 0; flex-shrink: 0; width: auto; margin-left: 3px; font-size: 12px; align-items: stretch; flex-direction: row; justify-content: space-around; padding-right: 0; margin-right: 3px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="item-properties-zone" style="width: 300px; height: 250px; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; margin-top: 10px; padding-top: 15px; margin-left: 20px; background-color: rgb(36, 36, 36); padding-left: 15px; padding-right: 15px; padding-bottom: 15px; margin-right: 20px; margin-bottom: 10px; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px;">
+                <ui:Label text="Item Properties" display-tooltip-when-elided="true" style="justify-content: center; align-items: center; -unity-font-style: bold; font-size: 17px; -unity-text-align: upper-center; margin-bottom: 10px;" />
+                <ui:VisualElement name="item-prop-ve" style="flex-shrink: 0; flex-direction: row; flex-grow: 0; flex-wrap: nowrap; justify-content: center; align-items: stretch; margin-bottom: 10px;">
+                    <uie:IntegerField label="ID:" value="42" name="id-field" tooltip="The unique ID of this item" style="margin-right: 20px;" />
+                    <ui:TextField picking-mode="Ignore" label="Name:" value="filler text" text="Example" name="name-field" tooltip="The name of this Item" />
+                    <uie:IntegerField label="Max Stack" value="42" name="max-stackable-field" tooltip="The maximum amount of this item that can be placed in a single stack." style="margin-left: 20px;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="margin-top: 0; margin-bottom: 10px; flex-direction: row;">
+                    <ui:Toggle label="Craftable ?" name="can-craft-field" tooltip="Is the item Craftable" style="margin-right: 15px;" />
+                    <ui:DropdownField label="Category" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="category-field" tooltip="The category in wich the item is classified" style="min-width: auto; width: 150px;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="margin-bottom: 10px;">
+                    <ui:TextField picking-mode="Ignore" label="Description:" name="description-field" multiline="true" style="flex-direction: column;" />
+                </ui:VisualElement>
+                <ui:VisualElement>
+                    <ui:Button text="Modify" display-tooltip-when-elided="true" name="modify-item-button" style="display: none;" />
+                    <ui:Button text="Create" display-tooltip-when-elided="true" name="create-item-button" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="item-icon-zone" style="width: 300px; height: 310px; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; margin-top: 10px; padding-top: 15px; margin-left: 20px; background-color: rgb(36, 36, 36); padding-left: 15px; padding-right: 15px; padding-bottom: 15px; margin-right: 20px; margin-bottom: 0; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px;">
+                <ui:Label text="Item Icon" display-tooltip-when-elided="true" style="justify-content: center; align-items: center; -unity-font-style: bold; font-size: 17px; -unity-text-align: upper-center; margin-bottom: 10px;" />
+                <ui:VisualElement name="item-icon-bg" style="margin-top: 5px; height: 200px; width: 200px; flex-direction: row; justify-content: flex-start; align-items: stretch; flex-shrink: 0; margin-left: 35px; padding-left: 0; background-image: none; margin-bottom: 15px; margin-right: 35px;">
+                    <ui:VisualElement name="item-icon-holder" style="flex-grow: 1; flex-shrink: 0;" />
+                </ui:VisualElement>
+                <uie:ObjectField label="New Item Icon" type="UnityEngine.Texture2D, UnityEngine.CoreModule" name="icon-file-selector" tooltip="The texture to use for this Item" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="actions-zone" style="background-color: rgb(36, 36, 36); border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; width: 200px; height: 385px; margin-left: 0; margin-right: 20px; margin-top: 15px; padding-left: 15px; padding-right: 15px; padding-top: 15px; padding-bottom: 15px; margin-bottom: 15px;">
+            <ui:Label text="Item" display-tooltip-when-elided="true" style="justify-content: center; align-items: stretch; -unity-font-style: bold; font-size: 17px; -unity-text-align: upper-center; margin-bottom: 10px; margin-top: 0;" />
+            <ui:Button text="Deselect Item" display-tooltip-when-elided="true" name="deselect-item-button" tooltip="Deselect the selected item" style="margin-bottom: 5px;" />
+            <ui:Button text="Delete Item" display-tooltip-when-elided="true" name="delete-item-button" tooltip="Delete the selected item" style="margin-bottom: 5px;" />
+            <ui:Label text="File" display-tooltip-when-elided="true" style="justify-content: center; align-items: stretch; -unity-font-style: bold; font-size: 17px; -unity-text-align: upper-center; margin-bottom: 10px; margin-top: 10px;" />
+            <ui:Button text="Save Item List" display-tooltip-when-elided="true" name="save-file-button" tooltip="Save the list as a text file. It will be saved on his current path" style="margin-bottom: 5px;" />
+            <ui:Button text="Auto IDs" display-tooltip-when-elided="true" name="auto-ids-button" tooltip="Sets every item ID from 0 To the number of items in the list" style="margin-bottom: 5px;" />
+            <ui:Button text="Export &gt; CSV" display-tooltip-when-elided="true" name="export-csv-button" tooltip="Export the file as a CSV for more readability" style="margin-bottom: 5px;" />
+            <ui:Label text="Checks" display-tooltip-when-elided="true" style="justify-content: center; align-items: stretch; -unity-font-style: bold; font-size: 17px; -unity-text-align: upper-center; margin-bottom: 10px; margin-top: 10px;" />
+            <ui:Button text="Check IDs" display-tooltip-when-elided="true" name="check-ids-button" tooltip="Check if every ID is unique." style="margin-bottom: 5px;" />
+            <ui:Label text="Sorting" display-tooltip-when-elided="true" style="justify-content: center; align-items: stretch; -unity-font-style: bold; font-size: 17px; -unity-text-align: upper-center; margin-bottom: 10px; margin-top: 10px;" />
+            <ui:Button text="ID" display-tooltip-when-elided="true" name="sort-by-id-button" tooltip="Sort the list by ID." style="margin-bottom: 5px;" />
+            <ui:Button text="Name" display-tooltip-when-elided="true" name="sort-by-name-button" tooltip="Sort the list by name." style="margin-bottom: 5px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="show-item-list" focusable="false" style="margin-left: 0; margin-right: 20px; max-width: none; min-width: auto; width: 400px; min-height: auto; height: 700px; padding-left: 15px; padding-right: 15px; padding-top: 15px; padding-bottom: 15px; margin-top: 15px; background-color: rgb(36, 36, 36); border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; justify-content: flex-start; -unity-text-align: middle-center;">
+            <ui:Label text="Items List" display-tooltip-when-elided="true" style="-unity-text-align: middle-center; -unity-font-style: bold; font-size: 17px; margin-bottom: 20px;" />
+            <ui:ListView focusable="true" name="item-list-container" label="Description" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:ProgressBar title="my-progress" name="progress-bar" style="margin-top: 5px; margin-bottom: 5px; margin-right: 150px; margin-left: 150px;" />
+</ui:UXML>

@@ -27,4 +27,4 @@ You can:
 * Sort your list by ID/Name
 * Export your list as CSV file for readability 
 
-** There is a PDF file explaining every features inside the Guide folder **
+**There is a PDF file explaining every features inside the Guide folder**
